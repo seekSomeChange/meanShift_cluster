@@ -247,9 +247,9 @@ def run():
     #训练，h=2
     j=0
     for i in xrange(len(lon_lat)):
-        # points, shift_points, cluster = train_mean_shift(lon_lat[i], 2)
+        points, shift_points, cluster = train_mean_shift(lon_lat[i], 2)
         filename = 'output'+str(i)+'.txt'
-        # write_to_file(filename,points,shift_points,cluster)
+        write_to_file(filename,points,shift_points,cluster)
         plot_result_figure(filename,i)
 
     #  绘制聚类结果图像
