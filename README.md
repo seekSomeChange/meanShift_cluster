@@ -7,4 +7,4 @@ file cz_user:userid
 
 output:mean shift results for resident clusters' centers of different permanent residents.
 
-
+reference link:https://github.com/mattnedrich/MeanShift_py
